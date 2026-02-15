@@ -1,0 +1,17 @@
+{
+  "name": "note-publisher",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "noteへの記事自動投稿 & 有料記事マネタイズ",
+  "scripts": {
+    "publish": "node src/publish.js",
+    "draft": "node src/publish.js --draft",
+    "save-cookie": "node save-cookie.js"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "dotenv": "^16.4.7"
+  }
+}

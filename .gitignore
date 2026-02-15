@@ -1,0 +1,7 @@
+node_modules/
+cookies/
+.env
+debug/
+debug/
+cookies/
+.DS_Store
